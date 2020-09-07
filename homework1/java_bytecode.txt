@@ -1,0 +1,11 @@
+spencer poisseroux
+
+ILOAD seems to load an int from a variable
+IINC seems to increment a variable
+GOTO seems to make the code jump to a specified location
+
+Assignments seems to be done with ILOAD / ICONST_X followed by a ISTORE,
+with increment assignment being handled by IINC
+Loops seem to be handled using the layout of the LX 'chunks' of bytecode and 
+using the GOTO to execute them in the correct order while also using IF_ICMPLE
+to check comparisons for the loops statements and IRETURN to return 

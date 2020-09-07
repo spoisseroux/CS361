@@ -1,0 +1,3 @@
+spencer poisseroux
+n = s = 19
+lecture page 19 is titled "interfaces"
